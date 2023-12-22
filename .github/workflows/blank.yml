@@ -26,7 +26,7 @@ jobs:
 
     - name: Create Next.js App
       run: |
-        npx create-next-app my-next-app --ts --example "https://github.com/vercel/next-learn-starter/tree/master/basics/without-src-and-no-app-router"
+        npx create-next-app my-next-app --ts
 
     - name: Change Directory
       run: |
