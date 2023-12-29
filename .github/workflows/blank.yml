@@ -22,15 +22,15 @@ jobs:
 
     - name: Install create-next-app
       run: |
-        npm install -g create-next-app
+        npm init -y
 
     - name: Create Next.js App
       run: |
-        npx create-next-app my-next-app --ts
+        npm install express
 
     - name: Change Directory
       run: |
-        cd my-next-app
+        npm install discord
 
     - name: Install Dependencies
       run: |
